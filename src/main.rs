@@ -45,7 +45,7 @@ async fn main() {
         .arg(
             Arg::with_name("wsl")
                 .help("Specifal flag for running in WSL")
-                .short("wsl")
+                .long("wsl")
                 .short("w")
                 .required(false)
                 .takes_value(false)
